@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<Bolobolobob>](https://circleci.com/gh/Bolobolobob/project4-udacity-devops.svg?style=svg)](https://app.circleci.com/pipelines/github/Bolobolobob/project4-udacity-devops?branch=master)
 
 ## Project Overview
 
