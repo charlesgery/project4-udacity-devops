@@ -1,3 +1,5 @@
+Server Logs :
+
 [2020-04-06 11:36:50,993] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
 [2020-04-06 11:36:50,995] INFO in app: Inference payload DataFrame: 
@@ -9,3 +11,13 @@
 [2020-04-06 11:36:51,013] INFO in app: Output prediction: 
 [20.35373177134412]
 172.17.0.1 - - [06/Apr/2020 11:36:51] "POST /predict HTTP/1.1" 200 -
+
+
+Output of make_prediction.sh :
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
