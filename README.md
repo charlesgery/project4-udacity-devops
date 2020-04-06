@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<Bolobolobob>](https://circleci.com/gh/Bolobolobob/project4-udacity-devops.svg?style=svg)](https://app.circleci.com/pipelines/github/Bolobolobob/project4-udacity-devops?branch=master)
 
 ## Project Overview
 
@@ -40,3 +40,15 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+## Project files
+
+The different files located in the directory are the following :
+* A Dockerfile to build a docker continer with app.py
+* A Makefile to setup the environment install the dependencies and lint the Dockerfile and the app.py file
+* An app.py file containing the code of the application
+* .sh scripts to run and upload the microservice on Docker and Kubernetes
+* A requirements.txt file used to install the required dependencies
+* An output_txt_files containing the ouptut of the logs obtained when using Docker and Kubernetes
+* A model_data folder containing the data of the model
+* A .circleci folder, containing a config.yml file for configuring CircleCI
